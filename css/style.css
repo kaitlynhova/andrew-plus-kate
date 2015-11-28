@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 2px;
   line-height: 35px;
 }
@@ -186,6 +186,7 @@ body{
 }
 
 #party-area .person{
+  padding-bottom: 20px;
   padding-top: 20px;
 }
 
