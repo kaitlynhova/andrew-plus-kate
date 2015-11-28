@@ -32,10 +32,18 @@
     font-style: normal;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: 'denseregular';
+}
+
 h2 {
-    font-family: 'denseregular';
-    font-size: 50px;
-    letter-spacing: 1px;
+  font-family: 'denseregular';
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+body{
+  color: #6d6d6d;
 }
 
 /* TOP NAV */
@@ -124,5 +132,34 @@ h2 {
 
 #story-area .names{
   position: relative;
-  top: 300px;
+  top: 265px;
+}
+
+/* PARTY AREA */
+/*========================================================================== */
+
+#party-area {
+  background-image: url("../images/party-bg.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+#party-area .ladies{
+  background-color: #8bbeb2;
+  color: #fff;
+}
+
+#party-area .gentlemen{
+  background-color: #5a9b8c;
+  color: #fff;
+}
+
+#party-area h3{
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
+#party-area .person{
+  padding-top: 20px;
 }
