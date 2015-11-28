@@ -83,6 +83,7 @@ body{
   float: right;
   position: relative;
   top: -32px;
+  cursor: pointer;
 }
 
 #top-nav .mobile-cross > img{
@@ -99,6 +100,10 @@ body{
   padding: 12.5px 30px;
   font-size: 30px;
   letter-spacing: 1px;
+  transition: .5s;
+}
+#top-nav ul li:hover {
+  background-color: #404756;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   #top-nav ul li {
