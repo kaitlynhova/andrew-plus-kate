@@ -59,6 +59,16 @@ video {
   vertical-align: baseline; /* 2 */
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-size: 0em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.

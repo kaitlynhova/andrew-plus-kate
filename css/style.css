@@ -1,9 +1,14 @@
 /* CUSTOM BOOTSTRAP */
 /*========================================================================== */
 
-.columns {
-  padding-left: 0rem;
-  padding-right: 0rem;
+.container{
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.std-padding{
+  padding: 75px 0;
 }
 
 /* FONTS */
@@ -27,10 +32,16 @@
 #top-nav{
   background-color: #232833;
   height: 70px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   color: white;
+  z-index: 9999;
   font-family: 'denseregular';
+}
+
+#top-nav .columns {
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 #top-nav .logo > img{
@@ -73,10 +84,28 @@
   background-position: center;
 }
 
+#hero .container{
+  border-top: 2px solid #ccc7bd;
+  border-left: 2px solid #ccc7bd;
+  border-right: 2px solid #ccc7bd;
+  height: 400px;
+  position: relative;
+  top: 160px;
+}
+
 #hero img{
   display: block;
   margin: 0 auto;
-  padding-top: 200px;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
+}
+
+
+/* INFORMATION AREA */
+/*========================================================================== */
+
+#information-area h2{
+  font-family: 'denseregular';
+  font-size: 50px;
+  letter-spacing: 1px;
 }
