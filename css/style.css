@@ -2,9 +2,15 @@
 /*========================================================================== */
 
 .container{
-  max-width: 1200px;
+  max-width: 1380px;
   display: block;
   margin: 0 auto;
+}
+
+.inner-container {
+  border-left: 2px solid #ccc7bd;
+  border-right: 2px solid #ccc7bd;
+  margin: 0 20px;
 }
 
 .std-padding{
@@ -24,6 +30,12 @@
          url('../fonts/dense-regular-webfont.svg#denseregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+h2 {
+    font-family: 'denseregular';
+    font-size: 50px;
+    letter-spacing: 1px;
 }
 
 /* TOP NAV */
@@ -84,13 +96,11 @@
   background-position: center;
 }
 
-#hero .container{
+#hero .inner-container{
   border-top: 2px solid #ccc7bd;
-  border-left: 2px solid #ccc7bd;
-  border-right: 2px solid #ccc7bd;
-  height: 400px;
+  height: 410px;
   position: relative;
-  top: 160px;
+  top: 75px;
 }
 
 #hero img{
@@ -98,19 +108,21 @@
   margin: 0 auto;
   width: 100%;
   max-width: 500px;
+  position: relative;
+  top: 90px;
 }
 
-
-/* INFORMATION AREA */
+/* STORY AREA */
 /*========================================================================== */
 
-#information-area.container {
-  border-left: 2px solid #ccc7bd;
-  border-right: 2px solid #ccc7bd;
+#story-area{
+  background-image: url("../images/story.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
-#information-area h2{
-  font-family: 'denseregular';
-  font-size: 50px;
-  letter-spacing: 1px;
+#story-area .names{
+  position: relative;
+  top: 300px;
 }
