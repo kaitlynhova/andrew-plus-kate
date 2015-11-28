@@ -1,0 +1,63 @@
+/* CUSTOM BOOTSTRAP */
+/*========================================================================== */
+
+.columns {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+/* FONTS */
+/*========================================================================== */
+
+@font-face {
+    font-family: 'denseregular';
+    src: url('../fonts/dense-regular-webfont.eot');
+    src: url('../fonts/dense-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dense-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dense-regular-webfont.woff') format('woff'),
+         url('../fonts/dense-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dense-regular-webfont.svg#denseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* TOP NAV */
+/*========================================================================== */
+
+#top-nav{
+  background-color: #232833;
+  height: 70px;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-family: 'denseregular';
+}
+
+#top-nav .logo > img{
+  max-width: 230px;
+  position: relative;
+  top: 18px;
+  padding: 0 30px;
+}
+
+#top-nav ul{
+  text-align: right;
+}
+
+#top-nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 12.5px 30px;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  #top-nav ul li {
+    padding: 17px 20px;
+    font-size: 24px;
+  }
+} /* min-width 641px, medium screens */
+
+#top-nav ul li.wedding{
+  background-color: #8bbeb2;
+}
