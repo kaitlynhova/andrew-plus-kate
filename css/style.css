@@ -104,6 +104,11 @@
 /* INFORMATION AREA */
 /*========================================================================== */
 
+#information-area.container {
+  border-left: 2px solid #ccc7bd;
+  border-right: 2px solid #ccc7bd;
+}
+
 #information-area h2{
   font-family: 'denseregular';
   font-size: 50px;
