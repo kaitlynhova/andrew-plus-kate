@@ -42,6 +42,12 @@ h2 {
   letter-spacing: 1px;
 }
 
+h3 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
 body{
   color: #6d6d6d;
 }
@@ -154,12 +160,6 @@ body{
   color: #fff;
 }
 
-#party-area h3{
-  font-size: 40px;
-  letter-spacing: 2px;
-  line-height: 35px;
-}
-
 #party-area .person{
   padding-top: 20px;
 }
@@ -240,9 +240,30 @@ body{
   color: white;
 }
 
-
 #schedule .white-bg{
   background-color: #fff;
   color: #6d6d6d;
   padding: 45px 0;
+}
+
+/* FOOTER */
+/*========================================================================== */
+
+#footer{
+  background-image: url("../images/footer.jpg");
+  text-align: center;
+  padding-bottom: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+#footer .inner-container{
+  border-bottom: 2px solid #ccc7bd;
+}
+
+
+@media only screen and (max-width: 40em) {
+  .inner-container{
+    border: 0px !important;
+  }
 }
