@@ -138,7 +138,7 @@ body{
 
 #story-area .names{
   position: relative;
-  top: 265px;
+  top: 370px;
 }
 
 /* PARTY AREA */
@@ -162,6 +162,21 @@ body{
 
 #party-area .person{
   padding-top: 20px;
+}
+
+@media only screen and (max-width: 40em) {
+  #party-area {
+    background-image: none;
+  }
+  #party-area .inner-container{
+    margin: 0px;
+  }
+  #party-area .gentlemen{
+    padding: 75px 20px;
+  }
+  #party-area .ladies{
+    padding:75px 20px;
+  }
 }
 
 /* SCHEDULE AREA */
@@ -244,6 +259,22 @@ body{
   background-color: #fff;
   color: #6d6d6d;
   padding: 45px 0;
+}
+
+/* RSVP */
+/*========================================================================== */
+#rsvp .registry{
+  margin-top: 35px;
+}
+
+#rsvp .registry > img{
+  display: block;
+  width: 100%;
+  max-width: 200px;
+}
+
+#rsvp .registry img.target{
+  max-width: 100px;
 }
 
 /* FOOTER */
