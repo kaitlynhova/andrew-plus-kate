@@ -63,6 +63,7 @@ body{
   color: white;
   z-index: 20;
   font-family: 'denseregular';
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.25);
 }
 
 #top-nav .columns {
@@ -92,6 +93,7 @@ body{
 
 #top-nav ul{
   text-align: right;
+  margin: 0;
 }
 
 #top-nav ul li{
@@ -133,13 +135,11 @@ body{
   top: 75px;
 }
 
-#hero img{
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 500px;
-  position: relative;
-  top: 90px;
+#hero h1{
+  color: white;
+  font-size: 6em;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 /* STORY AREA */
@@ -312,5 +312,9 @@ body{
 @media only screen and (max-width: 40em) {
   .inner-container{
     border: 0px !important;
+  }
+  #hero h1{
+    font-size: 4em;
+    padding-top: 40px;
   }
 }
