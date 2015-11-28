@@ -61,7 +61,7 @@ body{
   position: fixed;
   width: 100%;
   color: white;
-  z-index: 9999;
+  z-index: 20;
   font-family: 'denseregular';
 }
 
@@ -75,6 +75,18 @@ body{
   position: relative;
   top: 18px;
   padding: 0 30px;
+}
+
+#top-nav .mobile-cross{
+  background-color: #8bbeb2;
+  padding: 19px;
+  float: right;
+  position: relative;
+  top: -32px;
+}
+
+#top-nav .mobile-cross > img{
+  max-width: 40px;
 }
 
 #top-nav ul{

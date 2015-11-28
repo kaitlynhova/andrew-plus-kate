@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/pushmenu.css" />
+	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<!-- Top bar -->
@@ -20,6 +22,9 @@
 			<img src="images/logo.svg">
 		</div>
 		<div class="medium-9 columns links">
+			<div id="trigger-overlay" class="show-for-small-only mobile-cross">
+				<img src="images/bars.svg">
+			</div>
 			<ul class="hide-for-small-only">
 				<li>STORY</li>
 				<li>PARTY</li>
@@ -290,6 +295,22 @@
 		</div>
 	</div>
 	<!-- /RSVP-->
+
+	<div class="overlay overlay-contentpush">
+		<button type="button" class="overlay-close">Close</button>
+		<nav>
+			<ul>
+				<li><a href="#">STORY</a></li>
+				<li><a href="#">PARTY</a></li>
+				<li><a href="#">RSVP</a></li>
+				<li><a href="#">REGISTRY</a></li>
+				<li><a href="#">WEDDING</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<script src="js/classie.js"></script>
+	<script src="js/pushmenu.js"></script>
 
 </body>
 </html>
