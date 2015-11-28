@@ -240,6 +240,7 @@ body{
   background-color: #dda459;
   padding: 20px;
   text-align: center;
+  font-weight: bold;
   max-width: 200px;
   margin-top: 15px;
 }
@@ -302,6 +303,7 @@ body{
   padding-bottom: 75px;
   background-size: cover;
   background-position: center;
+  color: white;
 }
 
 #footer .inner-container{
