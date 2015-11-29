@@ -294,14 +294,64 @@ body{
   margin-top: 35px;
 }
 
+.asterisk{
+  color: #DEA653;
+}
+
+#rsvp p{
+  letter-spacing: 1px;
+  margin: 10px 0 5px 0;
+}
+
+#rsvp input {
+  line-height: normal;
+  background: #DFDFDF;
+  border: none;
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+#rsvp input[type="submit"]{
+  background-color: #DEA653;
+  color: white;
+  max-width: 200px;
+  padding: 15px;
+  outline: none;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+#rsvp input[type="checkbox"], input[type="radio"] {
+  width: 35px !important;
+  outline: none;
+}
+
+#rsvp li{
+  list-style: none;
+}
+
 #rsvp .registry > img{
   display: block;
   width: 100%;
   max-width: 200px;
+  margin-bottom: 20px;
+  transition: .5s;
+}
+
+#rsvp .registry > img:hover{
+  opacity: .7;
 }
 
 #rsvp .registry img.target{
   max-width: 100px;
+}
+
+#rsvp .we-are-registered{
+  margin-top: 35px;
 }
 
 /* FOOTER */
