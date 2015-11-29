@@ -118,6 +118,10 @@ body{
   background-color: #8bbeb2;
 }
 
+#top-nav ul li.wedding:hover{
+  background-color: rgba(139,190,178,.7);
+}
+
 /* HERO AREA */
 /*========================================================================== */
 
