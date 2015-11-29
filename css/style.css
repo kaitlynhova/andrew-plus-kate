@@ -188,6 +188,7 @@ body{
 #party-area .person{
   padding-bottom: 20px;
   padding-top: 20px;
+  height: 125px;
 }
 
 @media only screen and (max-width: 40em) {
@@ -323,6 +324,11 @@ body{
   outline: none;
   margin-top: 15px;
   margin-bottom: 0px;
+  transition: .5s;
+}
+
+#rsvp input[type="submit"]:hover{
+  opacity: .7;
 }
 
 #rsvp input[type="checkbox"], input[type="radio"] {
