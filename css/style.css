@@ -218,6 +218,7 @@ body{
 
 #schedule .row{
   border-bottom: 2px solid #e8e8e7;
+  margin: 0 20px;
 }
 
 #schedule .white-bg .row{
@@ -388,5 +389,9 @@ body{
   #hero h1{
     font-size: 4em;
     padding-top: 40px;
+  }
+
+  #schedule .row{
+    margin: 0;
   }
 }
