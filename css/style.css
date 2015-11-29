@@ -66,6 +66,10 @@ body{
   box-shadow: 0 0 3px 0 rgba(0,0,0,0.25);
 }
 
+#top-nav a{
+  color: #fff;
+}
+
 #top-nav .columns {
   padding-left: 0rem;
   padding-right: 0rem;
@@ -158,14 +162,14 @@ body{
 /* STORY AREA */
 /*========================================================================== */
 
-#story-area{
+#story{
   background-image: url("../images/story.jpg");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
-#story-area .names{
+#story .names{
   position: relative;
   top: 370px;
 }
@@ -173,39 +177,39 @@ body{
 /* PARTY AREA */
 /*========================================================================== */
 
-#party-area {
+#party {
   background-image: url("../images/party-bg.svg");
   background-size: cover;
   background-position: center;
 }
 
-#party-area .ladies{
+#party .ladies{
   background-color: #8bbeb2;
   color: #fff;
 }
 
-#party-area .gentlemen{
+#party .gentlemen{
   background-color: #5a9b8c;
   color: #fff;
 }
 
-#party-area .person{
+#party .person{
   padding-bottom: 20px;
   padding-top: 20px;
   height: 125px;
 }
 
 @media only screen and (max-width: 40em) {
-  #party-area {
+  #party {
     background-image: none;
   }
-  #party-area .inner-container{
+  #party .inner-container{
     margin: 0px;
   }
-  #party-area .gentlemen{
+  #party .gentlemen{
     padding: 75px 20px;
   }
-  #party-area .ladies{
+  #party .ladies{
     padding:75px 20px;
   }
 }
