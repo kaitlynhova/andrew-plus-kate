@@ -349,6 +349,12 @@ body{
   list-style: none;
 }
 
+#registry{
+  padding-top: 150px;
+  position: relative;
+  top: -150px;
+}
+
 #rsvp .registry > img{
   display: block;
   width: 100%;
