@@ -2,15 +2,20 @@
 /*========================================================================== */
 
 .container{
-  max-width: 1380px;
+  padding: 0 50px;
   display: block;
   margin: 0 auto;
+}
+
+.set-width {
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
 }
 
 .inner-container {
   border-left: 2px solid #ccc7bd;
   border-right: 2px solid #ccc7bd;
-  margin: 0 20px;
 }
 
 .std-padding{
@@ -138,6 +143,7 @@ body{
 
 #hero .inner-container{
   border-top: 2px solid #ccc7bd;
+  margin: 0 50px;
   height: 410px;
   position: relative;
   top: 75px;
@@ -404,5 +410,11 @@ body{
 
   #schedule .row{
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    padding: 0;
   }
 }
