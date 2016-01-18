@@ -109,19 +109,20 @@ body{
 }
 
 #top-nav ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 12.5px 30px;
-  font-size: 30px;
-  letter-spacing: 1px;
-  transition: .5s;
+   list-style: none;
+   display: inline-block;
+   padding: 12.5px 30px;
+   font-size: 27px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   transition: .5s;
 }
 #top-nav ul li:hover {
   background-color: #404756;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   #top-nav ul li {
-    padding: 17px 19px;
+    padding: 15px 15px;
     font-size: 24px;
   }
 } /* min-width 641px, medium screens */
