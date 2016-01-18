@@ -14,8 +14,8 @@
 }
 
 .inner-container {
-  border-left: 4px solid #ccc7bd;
-  border-right: 4px solid #ccc7bd;
+  border-left: 10px solid #ccc7bd;
+  border-right: 10px solid #ccc7bd;
 }
 
 .std-padding{
@@ -146,7 +146,7 @@ body{
 }
 
 #hero .inner-container{
-  border-top: 4px solid #ccc7bd;
+  border-top: 10px solid #ccc7bd;
   margin: 0 50px;
   height: 445px;
   position: relative;
@@ -240,7 +240,7 @@ body{
 }
 
 #schedule .row{
-  border-bottom: 4px solid #e8e8e7;
+  border-bottom: 10px solid #e8e8e7;
   margin: 0 20px;
 }
 
@@ -408,7 +408,7 @@ body{
 }
 
 #footer .inner-container{
-  border-bottom: 4px solid #ccc7bd;
+  border-bottom: 10px solid #ccc7bd;
 }
 
 #footer img{
