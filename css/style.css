@@ -185,17 +185,7 @@ body{
   color: #5a9b8c;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #5a9b8c;
-  padding: 15px 20px;
-  position: relative;
-  top: 30px;
   transition: .5s;
-}
-
-#information-area a:hover{
-  color: #fff;
-  background-color: #5a9b8c;
-  border: 2px solid #5a9b8c;
 }
 
 /* STORY AREA */
