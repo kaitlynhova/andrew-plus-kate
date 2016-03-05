@@ -266,6 +266,7 @@ body{
 #schedule .title{
   font-size: 40px;
   font-weight: 200;
+  margin-top: -10px;
 }
 
 #schedule .time{
@@ -319,6 +320,11 @@ body{
 
 /* RSVP */
 /*========================================================================== */
+
+#mc_embed_signup{
+  position: relative;
+  z-index: 9999999999;
+}
 #rsvp .registry{
   margin-top: 35px;
   margin-bottom: -150px;
@@ -339,7 +345,7 @@ body{
   border: none;
   font-size: 24px;
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: 0;
   width: 100%;
   outline: none;
   margin-bottom: 20px;
@@ -347,7 +353,9 @@ body{
 
 #rsvp input[type="submit"]{
   background-color: #DEA653;
+  -webkit-appearance: none ;
   color: white;
+  border-radius: 0;
   max-width: 200px;
   padding: 15px;
   outline: none;
