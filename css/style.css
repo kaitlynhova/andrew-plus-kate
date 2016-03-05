@@ -178,6 +178,26 @@ body{
   }
 }
 
+/* INFORMATION AREA */
+/*========================================================================== */
+
+#information-area a{
+  color: #5a9b8c;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #5a9b8c;
+  padding: 15px 20px;
+  position: relative;
+  top: 30px;
+  transition: .5s;
+}
+
+#information-area a:hover{
+  color: #fff;
+  background-color: #5a9b8c;
+  border: 2px solid #5a9b8c;
+}
+
 /* STORY AREA */
 /*========================================================================== */
 
@@ -271,7 +291,7 @@ body{
 
 #schedule .time{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #schedule .by-invite{
@@ -323,7 +343,7 @@ body{
 
 #mc_embed_signup{
   position: relative;
-  z-index: 9999999999;
+  z-index: 10;
 }
 #rsvp .registry{
   margin-top: 35px;
@@ -369,8 +389,25 @@ body{
 }
 
 #rsvp input[type="checkbox"], input[type="radio"] {
-  width: 35px !important;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
   outline: none;
+  -webkit-appearance: none;
+}
+
+#rsvp label{
+  position: relative;
+  top: -32px;
+  padding: 0 20px;
+}
+
+#rsvp input[type="checkbox"]:checked {
+  width: 35px;
+  height: 35px;
+  outline: none;
+  background-color: #8bbeb2;
+  -webkit-appearance: none;
 }
 
 #rsvp li{
@@ -387,6 +424,11 @@ body{
   max-width: 200px;
   display: block;
   margin-top: 30px;
+  transition: .5s;
+}
+
+.registry img:hover{
+  opacity: .5;
 }
 
 #rsvp .registry > img{
